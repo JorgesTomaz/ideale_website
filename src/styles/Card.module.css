@@ -1,0 +1,60 @@
+.card {
+    background-color: #333; /* Preto fosco */
+    color: #fff; /* Texto branco para contraste */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: left;
+    width: 30%; /* Largura dos cards */
+    min-height: 400px; /* Altura mínima - ajuste conforme necessário */
+    margin-left: 15%; /* Aumenta a margem esquerda para centralizar */
+    margin-right: auto; /* Centraliza o card */
+}
+
+.card:nth-child(odd) {
+    margin-left: auto; /* Alinha cards ímpares à direita */
+    margin-right: 15%; /* Aumenta a margem direita para centralizar */
+}
+
+/* Estilize o ícone, título, descrição e botão conforme necessário */
+
+
+/* Estilize o ícone, título, descrição e botão conforme necessário */
+
+
+/* Estilize o ícone, título, descrição e botão conforme necessário */
+
+
+
+/* Estilize o ícone, título, descrição e botão conforme necessário */
+
+
+.icon {
+    /* Estilize o ícone conforme necessário */
+}
+
+.title {
+    /* Estilize o título conforme necessário */
+}
+
+.description {
+    /* Estilize a descrição conforme necessário */
+}
+
+.button {
+    /* Estilize o botão conforme necessário */
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%; /* Ajuste a largura conforme necessário */
+        margin-left: auto;
+        margin-right: auto;
+        min-height: auto; /* Ajuste a altura conforme necessário */
+    }
+
+    .card:nth-child(odd) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,44 @@
+.twoColumnSection {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Branco suave com transparência */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leftColumn {
+    flex: 0 0 30%;
+    padding: 20px;
+}
+
+.rightColumn {
+    flex: 0 0 70%;
+    padding: 40px;
+    /* Estilos adicionais para a coluna direita */
+}
+
+.title {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #808080;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .twoColumnSection {
+        flex-direction: column;
+    }
+
+    .leftColumn, .rightColumn {
+        flex: 0 0 100%;
+        padding: 20px; /* Ajuste o padding conforme necessário */
+    }
+}
+
+/* Adicione quaisquer outros estilos necessários aqui */

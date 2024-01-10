@@ -1,0 +1,45 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .contactInfo p, .footer .socialLinks a {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.footer .socialLinks a {
+    margin-right: 15px;
+    color: #4373DF;
+    text-decoration: none;
+}
+
+.footer .socialLinks a:hover {
+    color: #3658a4;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .socialLinks a {
+        margin: 5px 0;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; /* ou a cor de sua preferência */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+
+.logo a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ioStyle {
+    color: #4373DF; /* Cor específica para '.io' */
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #4373DF;
+}
+
+.clientArea {
+    background-color: #4373DF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.clientArea:hover {
+    background-color: #3658a4;
+}
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .menuIcon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; /* Posiciona logo abaixo do header */
+        left: 0;
+        width: 100%; /* Largura total */
+        background-color: #333; /* Cor de fundo do menu */
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+        z-index: 1000; /* Garante que o menu fique acima de outros elementos */
+    }
+
+    .navbar.showMenu {
+        display: flex;
+    }
+
+    .navbar a {
+        color: #fff; /* Cor do texto */
+        padding: 10px 15px; /* Espaçamento */
+        text-decoration: none;
+        font-size: 1.2em; /* Tamanho da fonte */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Linha entre links */
+        margin: 5px 0; /* Espaçamento entre links */
+    }
+
+    .navbar a:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Efeito hover */
+    }
+}

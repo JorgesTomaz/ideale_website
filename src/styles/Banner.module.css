@@ -1,0 +1,22 @@
+.banner {
+    background-image: url('/ideale_pb.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 99vw;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1em;
+}
